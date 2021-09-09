@@ -350,11 +350,25 @@ input{
     align-items: center;
 }
 
-.feature .row .image-container .big-image img{
+.feature .row .image-container .big-image1 img{
     height: 30rem;
     margin:2rem 0;
     filter: drop-shadow(0 .1rem .5rem #000);
 }
+
+.feature .row .image-container .big-image2 img{
+    height: 30rem;
+    margin:2rem 0;
+    filter: drop-shadow(0 .1rem .5rem #000);
+}
+
+.feature .row .image-container .big-image3 img{
+    height: 30rem;
+    margin:2rem 0;
+    filter: drop-shadow(0 .1rem .5rem #000);
+}
+
+
 
 .feature .row .image-container .small1-image{
     display: flex;
