@@ -356,13 +356,41 @@ input{
     filter: drop-shadow(0 .1rem .5rem #000);
 }
 
-.feature .row .image-container .small-image{
+.feature .row .image-container .small1-image{
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
 }
 
-.feature .row .image-container .small-image img{
+.feature .row .image-container .small1-image img{
+    height:6rem;
+    padding: 1rem;
+    margin:1rem;
+    border:.1rem solid #666;
+    cursor: pointer;
+}
+
+.feature .row .image-container .small2-image{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.feature .row .image-container .small2-image img{
+    height:6rem;
+    padding: 1rem;
+    margin:1rem;
+    border:.1rem solid #666;
+    cursor: pointer;
+}
+
+.feature .row .image-container .small3-image{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.feature .row .image-container .small3-image img{
     height:6rem;
     padding: 1rem;
     margin:1rem;
