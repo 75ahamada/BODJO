@@ -157,7 +157,7 @@ header .header-2.header-active{
     box-shadow: 0 .1rem .3rem rgba(0,0,0,.3);
 }
 .header-7{
-    background-color:red;
+    background-color:#000;
 
 }
 .header-7 h1{
@@ -166,13 +166,6 @@ header .header-2.header-active{
 
 }
 /* modiffication */
-.slider{
-    height: 50%;
-    text-align:center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 input{
     border-radius: 20px;
