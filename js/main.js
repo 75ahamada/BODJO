@@ -41,7 +41,23 @@ $(document).ready(function(){
         loop:true
     });
 
-    $('.small-image img').click(function(){
+    $('.small1-image img').click(function(){
+
+        $(this).addClass('images-active').siblings().removeClass('image-active');
+        let image = $(this).attr('src');
+        $('.big-image img').attr('src', image);
+
+    });
+    
+     $('.small2-image img').click(function(){
+
+        $(this).addClass('images-active').siblings().removeClass('image-active');
+        let image = $(this).attr('src');
+        $('.big-image img').attr('src', image);
+
+    });
+    
+     $('.small3-image img').click(function(){
 
         $(this).addClass('images-active').siblings().removeClass('image-active');
         let image = $(this).attr('src');
