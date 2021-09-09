@@ -45,7 +45,7 @@ $(document).ready(function(){
 
         $(this).addClass('images-active').siblings().removeClass('image-active');
         let image = $(this).attr('src');
-        $('.big-image img').attr('src', image);
+        $('.big-image img1').attr('src', image);
 
     });
     
@@ -53,7 +53,7 @@ $(document).ready(function(){
 
         $(this).addClass('images-active').siblings().removeClass('image-active');
         let image = $(this).attr('src');
-        $('.big-image img').attr('src', image);
+        $('.big-image img2').attr('src', image);
 
     });
     
@@ -61,7 +61,7 @@ $(document).ready(function(){
 
         $(this).addClass('images-active').siblings().removeClass('image-active');
         let image = $(this).attr('src');
-        $('.big-image img').attr('src', image);
+        $('.big-image img3').attr('src', image);
 
     });
 
